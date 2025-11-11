@@ -29,6 +29,5 @@ public class ApplicationRunner {
         System.out.println("String value from Spring Context is: " + hello);
         Integer num = context.getBean(Integer.class);
         System.out.println("Integer value from Spring Context is: " + num);
-
     }
 }
