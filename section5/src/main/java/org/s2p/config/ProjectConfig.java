@@ -17,7 +17,7 @@ with stereotype annotations, we use @ComponentScan annotation over
 the configuration class.
 * */
 @Configuration
-@ComponentScan(basePackages = "org.beans.*")
+@ComponentScan(basePackages = "org.s2p.beans")
 public class ProjectConfig
 {
 
