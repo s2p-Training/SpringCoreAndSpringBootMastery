@@ -17,8 +17,8 @@ to be used in the application.
 public class ProjectConfig
 {
     /*
-        Here in the below code, we are creating the Vehicle Bean by invoking the vehicle() bean method.
-     */
+      Here in the below code, we are creating the Vehicle Bean by invoking the vehicle() bean method.
+   */
     @Bean
     Vehicle vehicle()
     {
@@ -27,21 +27,20 @@ public class ProjectConfig
         return vehicle;
     }
 
-
     /*
-        Here in the below code, we are trying to wire or establish a relationship between
-        Person and Vehicle by passing the vehicle as a method parameter to the person() bean method.
+       Here in the below code, we are trying to wire or establish a relationship between
+       Person and Vehicle by passing the vehicle as a method parameter to the person() bean method.
 
-        Spring injects the vehicle bean to the person bean using Dependency Injection.
-        Spring will make sure to have only 1 vehicle bean is created and also Vehicle bean
-        will be created first as person bean has dependency on it.
-     */
+       Spring injects the vehicle bean to the person bean using Dependency Injection.
+       Spring will make sure to have only 1 vehicle bean is created and also Vehicle bean
+       will be created first as person bean has dependency on it.
+    */
     @Bean
     Person person(Vehicle vehicle)
     {
         Person person = new Person();
-        person.setName("Steve Jobs");
-        person.setVehicle(vehicle); // setting the vehicle received from spring context
+        person.setName("Steve Jobs"); // setting the vehicle received from spring context
+        person.setVehicle(vehicle);
         return person;
     }
 }
