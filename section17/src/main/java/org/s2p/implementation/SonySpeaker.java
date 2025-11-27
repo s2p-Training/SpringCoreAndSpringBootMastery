@@ -8,6 +8,12 @@ import org.springframework.stereotype.Component;
 @Primary
 public class SonySpeaker implements Speaker
 {
+
+    public SonySpeaker()
+    {
+        System.out.println("SonySpeaker Bean Created By Spring Framework");
+    }
+
     @Override
     public String makeSound() {
         return "Playing music with Sony speaker";

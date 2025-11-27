@@ -6,6 +6,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class BoseSpeaker implements Speaker
 {
+    public BoseSpeaker()
+    {
+        System.out.println("BoseSpeaker Bean Created By Spring Framework");
+    }
+
     @Override
     public String makeSound() {
         return "Playing music with Bose speakers";

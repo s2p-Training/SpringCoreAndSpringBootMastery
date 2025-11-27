@@ -25,8 +25,8 @@ public class Vehicle {
 
     @Autowired
     public void setVehicleServices(VehicleServices vehicleServices) {
-        System.out.println("Setter Method Called By Spring Core Framework");
         this.vehicleServices = vehicleServices;
+        System.out.println("Setter Method Called By Spring Core Framework");
     }
 
     @Override
