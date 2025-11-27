@@ -5,6 +5,7 @@ import org.s2p.beans.Vehicle;
 import org.s2p.config.ProjectConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+// Example No Wiring Scenario
 public class ApplicationRunner {
     public static void main(String[] args)
     {
