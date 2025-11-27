@@ -40,6 +40,7 @@ public class ProjectConfig
     {
         Person person = new Person();
         person.setName("Steve Jobs");
+        person.setVehicle(vehicle());
         return person;
     }
 }
