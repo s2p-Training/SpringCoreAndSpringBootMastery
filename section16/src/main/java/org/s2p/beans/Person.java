@@ -3,12 +3,13 @@ package org.s2p.beans;
 
 public class Person
 {
-    private String name;
+    private String name = "Steve Jobs";
     private Vehicle vehicle;
 
     public Person()
     {
         this.vehicle = new Vehicle();
+        System.out.println("Person Bean Created By User");
     }
 
     public Person(Vehicle vehicle)

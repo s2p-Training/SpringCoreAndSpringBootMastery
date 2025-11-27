@@ -10,7 +10,8 @@ public class Vehicle {
 
     public Vehicle()
     {
-        System.out.println("Vehicle Bean Created By Spring");
+        this.vehicleServices = new VehicleServices();
+        System.out.println("Vehicle Bean Created By User");
     }
 
     public String getName() {

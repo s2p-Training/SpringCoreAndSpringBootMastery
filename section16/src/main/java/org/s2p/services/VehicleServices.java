@@ -11,14 +11,15 @@ public class VehicleServices
     private Tyres tyres;
 
     // Default Constructor
-    VehicleServices()
+    public VehicleServices()
     {
         speaker = new BoseSpeaker();
         tyres   = new MichelinTyres();
+        System.out.println("VehicleService Bean Created By User");
     }
 
     // All Arguments Constructor
-    VehicleServices(Speaker speaker, Tyres tyres)
+    public VehicleServices(Speaker speaker, Tyres tyres)
     {
         this.speaker = speaker;
         this.tyres   = tyres;
