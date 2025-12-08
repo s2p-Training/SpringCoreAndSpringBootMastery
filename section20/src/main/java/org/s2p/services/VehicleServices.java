@@ -36,31 +36,16 @@ public class VehicleServices
 
     public void playMusic()
     {
-        Instant startTime =  Instant.now();
-        logger.info("playMusic started at : " + startTime.toEpochMilli());
 
         String music = speaker.makeSound();
         System.out.println(music);
-
-        Instant endTime = Instant.now();
-        logger.info("playMusic finished at : " + endTime.toEpochMilli());
-        double duration = Duration.between(startTime,endTime).toMillis();
-        logger.info("playMusic() method took : " + duration);
 
     }
 
     public void moveVehicle()
     {
-        Instant start = Instant.now();
-        logger.info("moveVehicle() method started at : " + start.toEpochMilli());
-
         String status = tyres.rotate();
         System.out.println(status);
-
-        Instant finish = Instant.now();
-        logger.info("moveVehicle() method finished at : " + finish.toEpochMilli());
-        double totalDuration = Duration.between(start,finish).toMillis();
-        logger.info("moveVehicle() method took : " + totalDuration);
     }
 
     public Speaker getSpeaker() {
