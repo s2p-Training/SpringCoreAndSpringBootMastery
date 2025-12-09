@@ -10,9 +10,7 @@ import org.springframework.context.annotation.Configuration;
         basePackageClasses = {
                 org.s2p.beans.Person.class,
                 org.s2p.beans.Vehicle.class,
-        }
-)
-@ComponentScan(
+        },
         basePackages = {
                 "org.s2p.implementation",
                 "org.s2p.services"
