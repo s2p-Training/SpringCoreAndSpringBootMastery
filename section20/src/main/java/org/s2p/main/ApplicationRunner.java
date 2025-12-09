@@ -7,9 +7,7 @@ import org.s2p.interfaces.Speaker;
 import org.s2p.interfaces.Tyres;
 import org.s2p.services.VehicleServices;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
-@EnableAspectJAutoProxy(proxyTargetClass = false)
 public class ApplicationRunner {
 
     public static void main(String[] args) {
