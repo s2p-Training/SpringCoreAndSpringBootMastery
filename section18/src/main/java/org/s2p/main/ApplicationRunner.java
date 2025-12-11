@@ -21,6 +21,10 @@ public class ApplicationRunner {
         {
             System.out.println("VehicleServices bean is an singleton scoped bean");
         }
+        else
+        {
+            System.out.println("VehicleServices bean is a prototype scoped bean");
+        }
 
     }
 }

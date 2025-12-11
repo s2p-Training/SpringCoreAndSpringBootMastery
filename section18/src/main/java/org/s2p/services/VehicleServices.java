@@ -12,6 +12,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Scope(value = BeanDefinition.SCOPE_SINGLETON)
+//@Scope(value = BeanDefinition.SCOPE_PROTOTYPE)
 public class VehicleServices
 {
     private Speaker speaker;
