@@ -3,6 +3,7 @@ package org.s2p.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 
 @Configuration
@@ -13,9 +14,11 @@ import org.springframework.context.annotation.Configuration;
         },
         basePackages = {
                 "org.s2p.implementation",
-                "org.s2p.services"
+                "org.s2p.services",
+                "org.s2p.aspects"
         }
 )
+@EnableAspectJAutoProxy
 public class ProjectConfig
 {
 
