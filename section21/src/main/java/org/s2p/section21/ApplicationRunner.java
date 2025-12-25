@@ -6,10 +6,8 @@ import org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAut
 
 @SpringBootApplication(exclude = ConfigurationPropertiesAutoConfiguration.class)
 public class ApplicationRunner {
-
 	public static void main(String[] args)
     {
 		SpringApplication.run(ApplicationRunner.class, args);
 	}
-
 }

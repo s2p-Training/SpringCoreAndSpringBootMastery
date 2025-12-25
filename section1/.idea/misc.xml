@@ -5,6 +5,28 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../section2/pom.xml" />
+        <option value="$PROJECT_DIR$/../section3/pom.xml" />
+        <option value="$PROJECT_DIR$/../section4/pom.xml" />
+        <option value="$PROJECT_DIR$/../section5/pom.xml" />
+        <option value="$PROJECT_DIR$/../section6/pom.xml" />
+        <option value="$PROJECT_DIR$/../section7/pom.xml" />
+        <option value="$PROJECT_DIR$/../section8/pom.xml" />
+        <option value="$PROJECT_DIR$/../section9/pom.xml" />
+        <option value="$PROJECT_DIR$/../section10/pom.xml" />
+        <option value="$PROJECT_DIR$/../section11/pom.xml" />
+        <option value="$PROJECT_DIR$/../section12/pom.xml" />
+        <option value="$PROJECT_DIR$/../section13/pom.xml" />
+        <option value="$PROJECT_DIR$/../section14/pom.xml" />
+        <option value="$PROJECT_DIR$/../section15/pom.xml" />
+        <option value="$PROJECT_DIR$/../section16/pom.xml" />
+        <option value="$PROJECT_DIR$/../section17/pom.xml" />
+        <option value="$PROJECT_DIR$/../section18/pom.xml" />
+        <option value="$PROJECT_DIR$/../section19/pom.xml" />
+        <option value="$PROJECT_DIR$/../section20/pom.xml" />
+        <option value="$PROJECT_DIR$/../section21/pom.xml" />
+        <option value="$PROJECT_DIR$/../section22/pom.xml" />
+        <option value="$PROJECT_DIR$/../section23/pom.xml" />
       </list>
     </option>
   </component>
