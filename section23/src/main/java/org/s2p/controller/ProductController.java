@@ -1,8 +1,9 @@
 package org.s2p.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.s2p.entity.Product;
-import org.s2p.repository.ProductRepository;
+import org.s2p.dto.ProductDto;
+import org.s2p.service.IProductService;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,12 +15,14 @@ import java.util.List;
 @RequiredArgsConstructor
 public class ProductController
 {
-    private final ProductRepository productRepository;
+    private final IProductService productService;
 
+//    @CrossOrigin(origins = {"http://localhost:5173"})
     @GetMapping
-    public List<Product> getProducts()
+    public List<ProductDto> getProducts()
     {
-        List<Product> productList =  productRepository.findAll();
-        return productList;
+        System.out.println("Hello Products API");
+        List<ProductDto> productDtoList =  productService.getAllProducts();
+        return productDtoList;
     }
 }
