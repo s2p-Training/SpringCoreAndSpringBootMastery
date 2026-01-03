@@ -1,4 +1,10 @@
 package org.s2p.service;
 
-public interface ProductService {
+import org.s2p.entity.Product;
+
+import java.util.List;
+
+public interface ProductService
+{
+    List<Product> fetchAllProducts();
 }
